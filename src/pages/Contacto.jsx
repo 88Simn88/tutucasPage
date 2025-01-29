@@ -8,7 +8,12 @@ const Contacto = () => {
     return (
 
 
-        <div className="bg-[url('./img/tutuka2.jpeg')]  md:bg-cover min-h-screen flex flex-col pt-[150px] items-center justify-center">
+        <div 
+        className="  md:bg-cover min-h-screen flex flex-col pt-[150px] items-center justify-center"
+        style={{
+            backgroundImage: `url('./img/tutuka2.jpeg')`, // Cambia esto con la URL de tu imagen de fondo
+          }}
+        >
 
             <h3 className="md:text-5xl text-4xl shadow font-bold mb-4 text-center font-serif text-black bg-gradient-to-r from-blue-200 via-white to-blue-200 rounded p-4 animate-pulse">¡Contactanos!</h3>
             <img
