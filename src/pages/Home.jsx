@@ -33,11 +33,17 @@ const Home = () => {
       {/* Próximos Eventos */}
       <section className="bg-gradient-to-br from-yellow-300 via-blue-300 to-red-500 text-black py-16 px-4 md:px-20">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 animate-pulse">
-          Contrataciones para:
+          Próximas Fechas
         </h2>
+
+        <p
+        className="text-xl"
+        >
+          Seguinos en Instagram para enterarte de las últimas novedades!!!
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Evento 1 */}
-          <div className="bg-white/30 border border-white/20 p-6 rounded-xl shadow-lg hover:scale-105 transition transform duration-300">
+        {/*   <div className="bg-white/30 border border-white/20 p-6 rounded-xl shadow-lg hover:scale-105 transition transform duration-300">
           
           <h3 className="text-2xl font-bold mb-4 text-center font-serif">Cumpleaños</h3>
             <p className="text-lg mb-5">
@@ -47,12 +53,13 @@ const Home = () => {
              to={"/contacto"}
              className="mt-10 bg-black text-red-500 px-4 py-2 rounded-full font-semibold hover:bg-blue-500 hover:text-black transition duration-300">
               Contactanos!
-            </Link> 
+            </Link>  
             
           </div>
+            */}
 
           {/* Evento 2 */}
-          <div className="bg-white/20  border border-white/20 p-6 rounded-xl shadow-lg hover:scale-105 transition transform duration-300">
+        {/*   <div className="bg-white/20  border border-white/20 p-6 rounded-xl shadow-lg hover:scale-105 transition transform duration-300">
             <h3 className="text-2xl font-bold mb-4 text-center font-serif">Casamientos</h3>
             <p className="text-lg mb-5">
             ¡Convierte tu casamiento en una fiesta inolvidable! Nuestra banda de cumbia llenará de ritmo y alegría tu celebración, haciendo que todos se levanten a bailar y disfruten de una noche mágica. 🎶💍
@@ -63,10 +70,10 @@ const Home = () => {
              className="mt-10 bg-black text-red-500 px-4 py-2 rounded-full font-semibold hover:bg-blue-500 hover:text-black transition duration-300">
               Contactanos!
             </Link> 
-          </div>
+          </div> */}
 
           {/* Evento 3 */}
-          <div className="bg-white/30 border border-white/20 p-6 rounded-xl shadow-lg hover:scale-105 ">
+         {/*  <div className="bg-white/30 border border-white/20 p-6 rounded-xl shadow-lg hover:scale-105 ">
             <h3 className="text-2xl font-bold mb-4 text-center font-serif">Eventos</h3>
             <p className="text-lg mb-5">
             Desde aniversarios hasta eventos corporativos, llevamos la esencia de la cumbia a donde sea necesario. Ritmo, emoción y buena vibra para que tu celebración sea todo un éxito. ¡Nada se compara con nuestra música en vivo! 🎤✨
@@ -77,7 +84,7 @@ const Home = () => {
              className="mt-10 bg-black text-red-500 px-4 py-2 rounded-full font-semibold hover:bg-blue-500 hover:text-black transition duration-300">
               Contactanos!
             </Link> 
-          </div>
+          </div> */}
         </div>
       </section>
 
